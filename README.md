@@ -93,7 +93,7 @@ Available, Easy and, (hopefully) Fast.
 
 **Q**: How can I access to the additional data?  
 
-**A**: The data are stored in a network attached storage (NAS) and shared throught a link. The download is protected by password and the access to the data restricted to a few devices. The link has a validity period that will allow you to download the data. Once the download is ultimated the data will be deleted for freeing space and the link not available anymore.
+**A**: The data are stored in a network attached storage (NAS) and shared throught a link. The download is protected by password and the access to the data restricted to a few devices. The link has a validity period that will allow you to download the data. Once the download is ultimated the data will be deleted for freeing space and the link will expire.
 
 # how to request additional data
 
