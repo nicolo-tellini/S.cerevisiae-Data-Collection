@@ -1,5 +1,4 @@
-# *S.cerevisiae*-Data-Collection
-*S.cerevisiae* Data Collection
+*S.cerevisiae* gVCF 1600 samples
 
 ## what's inside
 - scr
