@@ -43,6 +43,8 @@ The opening: [centuryfoxbadflute](https://www.youtube.com/watch?v=2IRcM9qwDwo)
 
 </details>
 
+## :computer: SOFTWARE
+
 ## :sos: HOWTO
 
 - keep only variant positions (SNPs)
@@ -93,3 +95,10 @@ Feel free to contact Dr. Matteo De Chiara.
 Long-term contact:</br>
 To: matnamo@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
+
+## :scroll: CITATION
+
+Tellini et al, 202X
+
+Along with Tellini et al, 202X cite the original papers to the collections of the strains you used and the software used in this pipeline.  
+
