@@ -4,13 +4,15 @@
   <img src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/imagelogo.png" alt="S.cer phylo"/>
 </p>
 
-### :octocat: what's inside 
+### :open_file_folder:
+
+What's inside:
 
 - scr
 - sample tab
 - linktothegVCF.txt
 
-### HOWTO
+### :sos: HOWTO
 
 - keep only variant positions (SNPs)
   ```
