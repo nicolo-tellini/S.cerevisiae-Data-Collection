@@ -9,13 +9,20 @@ S.cerevisiae Data Collection
 # pipeline
 # filtering
 # HOWTO
- - rename the header
+
+- keep only vaiant positions (SNPs)
+  
+```
+zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz 
+
+```
+- rename the header
  
  ```
- 1)
- bcftools head vcf.gz > header.txt
+ # 1) extract the headear
+ bcftools head gvcf.gz > header.txt
  
- 2)
+ # 2) replace SRR and ERR name with strain names
  for j in $(cat strainlist.txt)
  do
  
@@ -24,11 +31,13 @@ S.cerevisiae Data Collection
  
  done
  
- 3)
- bcftools reheader -h header.txt -Oz -o new.gvcf.bcf old.bcf
+ # 3) Add the new header to  
+ bcftools reheader -h header.txt -o gvcf.new.gz gvcf.gz
 
   ```
- - get specific samples
+
+  
+  - get specific samples
  
  ```
  # A list of strains
