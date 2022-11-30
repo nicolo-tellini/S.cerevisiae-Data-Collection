@@ -1,10 +1,10 @@
 # S.cerevisiae-Data-Collection
 S.cerevisiae Data Collection
 
-## who we are 
 ## what's inside
--scr
--sample tab
+- scr
+- sample tab
+- linktothegVCF.txt
 ## data provided
 ## pipeline
 ## filtering
