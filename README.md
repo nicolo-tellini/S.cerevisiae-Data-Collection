@@ -90,7 +90,7 @@ Available, Easy and, (hopefully) Fast.
 **Q**: Can I modify and use the modified scripts?</br>
 **A**: Yes, you can.
 
-### Request additional data
+### Request for additional data
 
 Short-term contact:</br>
 To: nicolo.tellini.2@gmail.com </br>
