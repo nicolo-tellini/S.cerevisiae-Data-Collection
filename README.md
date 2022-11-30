@@ -1,5 +1,5 @@
-# S.cerevisiae-Data-Collection
-S.cerevisiae Data Collection
+# *S.cerevisiae*-Data-Collection
+*S.cerevisiae* Data Collection
 
 ## what's inside
 - scr
