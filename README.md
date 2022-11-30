@@ -10,34 +10,13 @@ S.cerevisiae Data Collection
 # filtering
 # HOWTO
 
-- keep only vaiant positions (SNPs)
+- keep only variant positions (SNPs)
   
 ```
 zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz 
 
 ```
-- rename the header
- 
- ```
- # 1) extract the headear
- bcftools head gvcf.gz > header.txt
- 
- # 2) replace SRR and ERR name with strain names
- for j in $(cat strainlist.txt)
- do
- 
- k=$(grep -w $j strainlist.txt | cut -f3)
- sed -i "s/\<${j}\>/${k}/g" header.txt
- 
- done
- 
- # 3) Add the new header to  
- bcftools reheader -h header.txt -o gvcf.new.gz gvcf.gz
-
-  ```
-
-  
-  - get specific samples
+- get specific samples
  
  ```
  # A list of strains
@@ -47,6 +26,28 @@ zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
  bcftools view -s AAA,ALH vcf.gz -Oz -o myfavoritesamples.gvcf.gz
  
  ```
+ 
+- rename strains in the header
+ 
+ ```
+ # 1) extract the headear
+ bcftools head gvcf.gz > header.txt
+ 
+ # 2) replace SRR and ERR codes with strain names
+ 
+ for j in $(cat strainlist.txt)
+ do
+ k=$(grep -w $j strainlist.txt | cut -f3)
+ sed -i "s/\<${j}\>/${k}/g" header.txt
+ done
+ 
+ # 3) Add the new header to  
+ bcftools reheader -h header.txt -o gvcf.new.gz gvcf.gz
+
+  ```
+
+  
+  
 # Further things you want perform
  ```
  plink missing
@@ -54,10 +55,13 @@ zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
  bcftools stats
  ```
 # FAQ
-Q:I do not like your filtering
-Q:I want the bam 
-Q:I want a subset of the bam
-Q:I want separate gVCFs
+Q: Only the 1011 S.cerevisae collection mantains the three letter code, where I can download the reads?
+A: At ENA archive  
+Q: Why do you named the strains using the ENA archive Run Accession?
+Q: I do not like your filtering
+Q: I want the bam 
+Q: I want a subset of the bam
+Q: I want separate gVCFs
 
 # how to request additional data
 
