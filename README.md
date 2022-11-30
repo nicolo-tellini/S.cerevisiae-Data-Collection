@@ -102,7 +102,8 @@ Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
 ## :scroll: CITATION
 
-Tellini et al, 202X
+Please cite the paper below when using the data for your publications, along with the papers to the collections you use and the software listed above.
 
-Along with Tellini et al, 202X cite the original papers to the collections of the strains you used and the software used in this pipeline.  
-
+> Ancient and modern origin of shared polymorphisms among two yeast species </br>
+> Nicolò Tellini, Matteo De Chiara, Simone Mozzachiodi, Lorenzo Tattini, Chiara Vischioni, Elena S Naumova, Anders Bergström and Gianni Liti </br>
+> BioRxiv
