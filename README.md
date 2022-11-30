@@ -4,32 +4,27 @@
   <img src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/imagelogo.png" alt="S.cer phylo"/>
 </p>
 
-### what's inside
+### :octocat: what's inside 
+
 - scr
 - sample tab
 - linktothegVCF.txt
 
-### data provided
-### pipeline
-### filtering
 ### HOWTO
 
 - keep only variant positions (SNPs)
-  
-```
-zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz 
-
-```
+  ```
+  zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
+  ```
 - get specific samples
- 
- ```
- # A list of strains
- bcftools view -S ThisFileContainsOneStrainPerLine.txt vcf.gz -Oz -o myfavoritesamples.gvcf.gz
- 
- # A couple of strains
- bcftools view -s AAA,ALH vcf.gz -Oz -o myfavoritesamples.gvcf.gz
- 
- ```
+  ```
+  # A list of strains
+  bcftools view -S ThisFileContainsOneStrainPerLine.txt vcf.gz -Oz -o myfavoritesamples.gvcf.gz
+  ```
+  ```
+  # A couple of strains
+  bcftools view -s AAA,ALH vcf.gz -Oz -o myfavoritesamples.gvcf.gz
+  ```
  
 - rename strains in the header
   1) extract the headear
@@ -50,11 +45,9 @@ zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
   ```
  
 ### Further things you want perform
-
+Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
 ```
- plink missing 
- bcftools stats
- 
+bcftools stats gvcf.gz > gvcf.stats
 ```
  
 ### FAQ
