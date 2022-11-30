@@ -1,14 +1,14 @@
 # S.cerevisiae-Data-Collection
 S.cerevisiae Data Collection
 
-# who we are 
-# what's inside
+## who we are 
+## what's inside
 -scr
 -sample tab
-# data provided
-# pipeline
-# filtering
-# HOWTO
+## data provided
+## pipeline
+## filtering
+## HOWTO
 
 - keep only variant positions (SNPs)
   
@@ -45,13 +45,13 @@ zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
  bcftools reheader -h header.txt -o gvcf.new.gz gvcf.gz
 
   ```
-# Further things you want perform
+## Further things you want perform
  ```
  plink missing
  
  bcftools stats
  ```
-# FAQ
+## FAQ
 
 **Q**: Only the 1011 *S.cerevisae* collection mantains the three letter code, where I can download the reads? </br>
 **A**: At ENA archive project code PRJEB13017, note that fastqs have the three letter code followed by OSW; the number after the second underscore indicate the reads orientation (e.g. BCM_**CAA**OSW_2_**1**_C3F32ACXX.IND4_clean.fastq.gz is CAA strain R1.fastq.gz)
@@ -91,7 +91,7 @@ Available, Easy and, (hopefully) Fast.
 **Q**: Can I modify and use the modified scripts?</br>
 **A**: Yes, you can.
 
-# how to request additional data
+## how to request additional data
 
 Short-term contact:</br>
 To: nicolo.tellini.2@gmail.com </br>
