@@ -4,17 +4,17 @@
   <img src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/imagelogo.png" alt="S.cer phylo"/>
 </p>
 
-behind the scene
+BTS
 <details>
 
 Based on a true story.
-
+  
+part I: the logo
+  
 NT:"I like this logo!"
-
 MDC:"Of course! it is identical to MY tree which is magnificent"
 
 </details>
-
 
 ## :open_file_folder: CONTENT
 
