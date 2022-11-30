@@ -12,6 +12,10 @@ What's inside:
 - sample tab
 - linktothegVCF.txt
 
+<details>
+Here hidden text
+</details>
+
 ## :sos: HOWTO
 
 - keep only variant positions (SNPs)
