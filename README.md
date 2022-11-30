@@ -25,8 +25,22 @@ What's inside:
 - sample tab
 - linktothegVCF.txt
 
+BTS
+
 <details>
-Here hidden text
+</br>
+Based on a true story.
+
+PART II: the trailer?!
+
+NT:"I want to replace the bullet points with the directory tree"
+
+MDC:"a trailer!?"
+
+NT:"a trailer? An opening!"
+
+The opening: [centuryfoxbadflute](https://www.youtube.com/watch?v=2IRcM9qwDwo)
+
 </details>
 
 ## :sos: HOWTO
