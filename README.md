@@ -8,6 +8,7 @@
 - scr
 - sample tab
 - linktothegVCF.txt
+
 ### data provided
 ### pipeline
 ### filtering
@@ -31,29 +32,31 @@ zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
  ```
  
 - rename strains in the header
- 
- ```
- # 1) extract the headear
- bcftools head gvcf.gz > header.txt
- 
- # 2) replace SRR and ERR codes with strain names
- 
- for j in $(cat strainlist.txt)
- do
- k=$(grep -w $j strainlist.txt | cut -f3)
- sed -i "s/\<${j}\>/${k}/g" header.txt
- done
- 
- # 3) Add the new header to  
- bcftools reheader -h header.txt -o gvcf.new.gz gvcf.gz
-
+  1) extract the headear
   ```
-### Further things you want perform
- ```
- plink missing
+  bcftools head gvcf.gz > header.txt
+  ```
+  2) replace SRR and ERR codes with strain names
+  ```
+  for j in $(cat strainlist.txt)
+  do
+  k=$(grep -w $j strainlist.txt | cut -f3)
+  sed -i "s/\<${j}\>/${k}/g" header.txt
+  done
+  ```
+  3) Add the new header to *gvcf.new.gz*
+  ```
+  bcftools reheader -h header.txt -o gvcf.new.gz gvcf.gz
+  ```
  
+### Further things you want perform
+
+```
+ plink missing 
  bcftools stats
- ```
+ 
+```
+ 
 ### FAQ
 
 **Q**: Only the 1011 *S.cerevisae* collection mantains the three letter code, where I can download the reads? </br>
