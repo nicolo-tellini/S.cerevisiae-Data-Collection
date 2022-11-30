@@ -97,7 +97,7 @@ Short-term contact:
 To: nicolo.tellini.2@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
-note: If I (nicolo.tellini) do not reply in 5 working days I am probably hard coding/debugging, freaking out because of the dissertation, sampling **Saccharomyces** in a place without internet connection or tryharding in CoD. 
+note: If I (nicolo.tellini) do not reply in 5 working days I am probably hard coding/debugging, freaking out because of the dissertation, sampling *Saccharomyces* in a place without internet connection or tryharding in CoD. 
 Feel free to contact also Dr. Matteo De Chiara.
 
 Long-term contact: 
