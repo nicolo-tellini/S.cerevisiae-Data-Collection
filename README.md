@@ -70,7 +70,7 @@ DONE.
 
 Available, Easy and, (hopefully) Fast.
 
-**Q**: I do **not** agree with your filtering
+**Q**: I do **not** agree with your filtering</br>
 **A**: The filters we applied are summarised below.
 
  - MQ >= 5 (bcftools mpileup ```-q``` option)
@@ -93,13 +93,13 @@ Available, Easy and, (hopefully) Fast.
 
 # how to request additional data
 
-To: matnamo@gmail.com </br>
-Subject: DATAEXT-*yourname*-DD/MM/YYYY
-
+Short-term contact:
 To: nicolo.tellini.2@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
-keep in mind: 
-- timing (2/4 weeks)
-- queue 
-- anticipate the request
+note: If I (nicolo.tellini) do not reply in 5 working days I am probably hard coding/debugging, freaking out because of the dissertation, sampling **Saccharomyces** in a place without internet connection or tryharding in CoD. 
+Feel free to contact also Dr. Matteo De Chiara.
+
+Long-term contact: 
+To: matnamo@gmail.com </br>
+Subject: DATAEXT-*yourname*-DD/MM/YYYY
