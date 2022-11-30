@@ -58,7 +58,7 @@ A: At ENA archive project code PRJEB13017, note that fastqs have the three lette
 
 Q: The 1011 S.cerevisae collection takes around 1TB, can I have a reduced size of the collection? 
 
-A: We did subsamples the fasqs at an estimated coverage of X40 and X20. This datasets are available on requests (see  [how to request additional data]())
+A: We did subsamples the fasqs at an estimated coverage of X40 and X20. This datasets are available on requests (see  [how to request additional data](https://github.com/nicolo-tellini/S.cerevisiae-Data-Collection/blob/main/README.md#how-to-request-additional-data))
 
 Q: Why do you named the strains using the ENA archive Run Accession?
 
