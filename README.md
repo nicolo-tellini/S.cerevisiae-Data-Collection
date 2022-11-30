@@ -46,13 +46,13 @@ What's inside:
   bcftools reheader -h header.txt -o gvcf.new.gz gvcf.gz
   ```
  
-### Further things you want perform
+#### Further things you want perform
 Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
 ```
 bcftools stats gvcf.gz > gvcf.stats
 ```
  
-### FAQ
+### :grey_question: FAQ
 
 **Q**: Only the 1011 *S.cerevisae* collection mantains the three letter code, where I can download the reads? </br>
 **A**: At ENA archive project code PRJEB13017, note that fastqs have the three letter code followed by OSW; the number after the second underscore indicate the reads orientation (e.g. BCM_**CAA**OSW_2_**1**_C3F32ACXX.IND4_clean.fastq.gz is CAA strain R1.fastq.gz)
