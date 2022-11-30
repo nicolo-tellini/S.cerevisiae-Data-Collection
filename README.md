@@ -7,15 +7,14 @@
 BTS
 
 <details>
+</br>
+Based on a true story. 
 
-Based on a true story.
-  
-part I: the logo
-  
+PART I: the logo
+
 NT:"I like this logo!"
 
 MDC:"Of course! it is identical to MY tree which is magnificent"
-
 </details>
 
 ## :open_file_folder: CONTENT
