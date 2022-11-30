@@ -9,9 +9,9 @@ behind the scene
 
 Based on a true story.
 
-N:"I like this logo!"
+NT:"I like this logo!"
 
-M:"Of course! it is identical to MY tree which is magnificent"
+MDC:"Of course! it is identical to MY tree which is magnificent"
 
 </details>
 
