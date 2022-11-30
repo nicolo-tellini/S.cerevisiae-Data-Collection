@@ -4,7 +4,7 @@
   <img src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/imagelogo.png" alt="S.cer phylo"/>
 </p>
 
-### :open_file_folder:
+### :open_file_folder: Dir. content
 
 What's inside:
 
