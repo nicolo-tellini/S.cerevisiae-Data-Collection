@@ -89,6 +89,8 @@ The opening: [centuryfoxbadflute](https://www.youtube.com/watch?v=2IRcM9qwDwo)
 
 ## :e-mail: REQUEST FOR ADDITIONAL DATA
 
+Additional data are stored in a network attached storage (NAS) and shared throught a personal link sent by email. The download is protected by password and the access to the data restricted to a few devices for security reasons. The validity period of the link is limited to the date the download is ultimated. Additional data not available will be generated and deleted right after the download.
+
 Short-term contact:</br>
 To: nicolo.tellini.2@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
