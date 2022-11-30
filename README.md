@@ -6,9 +6,13 @@
 
 behind the scene
 <details>
-Based on a true story..
+
+Based on a true story.
+
 N:"I like this logo!"
+
 M:"Of course! it is identical to MY tree which is magnificent"
+
 </details>
 
 
@@ -22,7 +26,7 @@ What's inside:
 
 <details>
 Here hidden text
-</H>
+</details>
 
 ## :sos: HOWTO
 
