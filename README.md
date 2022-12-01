@@ -4,19 +4,6 @@
   <img src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/imagelogo.png" alt="S.cer phylo"/>
 </p>
 
-BTS
-
-<details>
-</br>
-Based on a true story. 
-
-PART I: the logo
-
-NT:"I like this logo!"
-
-MDC:"Of course! it is identical to MY tree which is magnificent"
-</details>
-
 ## :open_file_folder: CONTENT
 
 What's inside:
@@ -24,24 +11,6 @@ What's inside:
 - scr
 - sample tab
 - linktothegVCF.txt
-
-BTS
-
-<details>
-</br>
-Based on a true story.
-
-PART II: the trailer?!
-
-NT:"I want to replace the bullet points with the directory tree"
-
-MDC:"a trailer!?"
-
-NT:"a trailer? An opening!"
-
-The opening: [centuryfoxbadflute](https://www.youtube.com/watch?v=2IRcM9qwDwo)
-
-</details>
 
 ## :computer: SOFTWARE
 
@@ -89,7 +58,13 @@ The opening: [centuryfoxbadflute](https://www.youtube.com/watch?v=2IRcM9qwDwo)
 
 ## :e-mail: REQUEST FOR ADDITIONAL DATA
 
-Additional data are stored in a network attached storage (NAS) and shared throught a personal link sent by email. The download is protected by password and the access to the data restricted to a few devices for security reasons. The validity period of the link is limited to the date the download is ultimated. Additional data not available will be generated and deleted right after the download.
+Additional data are stored in a network attached storage (NAS) and shared through a personal *link* protected by *password*; both will be provided by email.
+
+The password is personal and unique.
+
+The access to the data is restricted to a few devices for security reasons.
+
+The validity period of the link is limited to the date the download is ultimated.
 
 Short-term contact:</br>
 To: nicolo.tellini.2@gmail.com </br>
