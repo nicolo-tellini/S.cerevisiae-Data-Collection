@@ -46,7 +46,9 @@ The HOWTO below ("rename strains in the header") allows to rename the strains.
      
 </details>
      
-The filtering phase is facilitate by the removal of symbols such as **- _ , . $ (  ) #**, overalpping names, and typos.
+The use of the Run Accession facilitates the filtering phase.
+
+This prevents the misselection of strains with overlapping, similar, multisymbolic names.
 
 Moreover, renaming the strains results in an easy-to-parse meaningful dash-separated tag.
 
