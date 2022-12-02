@@ -30,7 +30,7 @@ Chromosome names are lower case and (sadly) mantain roman numerals eg. chrIII (c
      
 </details>
 
-For the joy of bioinfo, strain names are replaced by ENA archive run code.
+For the joy of bioinfo, strain names are replaced by the ENA archive Run Accession.
 
 The HOWTO below ("rename strains in the header") allows to rename the strains.
 
