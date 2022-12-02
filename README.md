@@ -22,6 +22,14 @@ What's inside:
 
 All the genomic positions are included.
 
+Chromosome names are lower case and (sadly) mantain roman numerals eg. chrIII (chrMT is the only exception). 
+
+<details><summary>Warning</summary>
+   
+  plink without --aec will convert chrX in chr23 
+     
+</details>
+
 For the joy of bioinfo, strain names are replaced by ENA archive run code.
 
 The HOWTO below ("rename strains in the header") allows to rename the strains.
@@ -38,10 +46,9 @@ The HOWTO below ("rename strains in the header") allows to rename the strains.
      
 </details>
      
+The filtering phase is facilitate by the removal of symbols such as **- _ , . $ (  ) #**, overalpping names, and typos.
 
-This facilitate gVCF filtering (as symbols such as **- _ , . $ (  ) #**, overalpping names, and typos are removed).
-
-Moreover resnaming the strains results in an easy-to-parse meaningful dash-separated tag.
+Moreover, renaming the strains results in an easy-to-parse meaningful dash-separated tag.
 
 I recommend to run it at the last of your analyses.
 
