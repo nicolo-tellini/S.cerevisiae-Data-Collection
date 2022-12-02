@@ -25,8 +25,8 @@ All the genomic positions are included.
 Chromosome names are lower case and (sadly) mantain roman numerals eg. chrIII (chrMT is the only exception). 
 
 <details><summary>Warning</summary>
-   
-  plink without --aec will convert chrX in chr23 
+    
+    plink without --aec will convert chrX in chr23 
      
 </details>
 
