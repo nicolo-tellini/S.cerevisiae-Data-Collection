@@ -24,7 +24,7 @@ All the genomic positions are included.
 
 For the joy of bioinfo, strain names are replaced by ENA archive run code.
 
-This facilitate the gVCF parsing as symbols such as - _ , . $ (  ) #, overalpping names, and typos are removed.
+This facilitate the gVCF parsing as symbols such as **- _ , . $ (  ) #**, overalpping names, and typos are removed.
 
 The HOWTO below ("rename strains in the header") allowed to rename the strains as follow:
 
