@@ -27,20 +27,21 @@ For the joy of bioinfo, strain names are replaced by ENA archive run code.
 The HOWTO below ("rename strains in the header") allows to rename the strains.
 
 <details><summary>Example</summary>
-
-  The strain *UWO 03-433.3* from Malaysian clade in the gVCF is named ERR1352879.
+    
+      The strain *UWO 03-433.3* from Malaysian clade in the gVCF is named ERR1352879.
   
-  Renaming ERR1352879 results in 
+      Renaming ERR1352879 results in 
   
-  ERR1352879-UWO_03_433_3-Malaysian
+      ERR1352879-UWO_03_433_3-Malaysian
   
-  NOTE: also white spaces in the name are replaced with underscore
-
+      NOTE: also white spaces in the name are replaced with underscore
+     
 </details>
+     
 
 This facilitate gVCF filtering (as symbols such as **- _ , . $ (  ) #**, overalpping names, and typos are removed).
 
-Moreover the strain names become an easy-to-parse meaningful dash-separated tag.
+Moreover resnaming the strains results in an easy-to-parse meaningful dash-separated tag.
 
 I recommend to run it at the last of your analyses.
 
