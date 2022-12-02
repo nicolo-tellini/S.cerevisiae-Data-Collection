@@ -18,6 +18,22 @@ What's inside:
 * [samtools](https://github.com/samtools/samtools/releases/tag/1.14) v. 1.14
 * [bcftools](https://github.com/samtools/bcftools/releases/tag/1.15.1) v. 1.15.1
 
+## gVCF FEATURES
+
+All the genomic positions are included.
+
+For the joy of bioinfo, strain names are replaced by ENA archive run code.
+
+This facilitate the gVCF parsing as symbols such as - _ , . $ (  ) #, overalpping names, and typos are removed.
+
+The HOWTO below ("rename strains in the header") allowed to rename the strains as follow:
+
+ENARUNCODE-strainNameWhereAllSymbolsHaveBeenReplacedWithUnderscore-cladename
+
+I recommend to run it at the last of your analyses. 
+
+It was thought to rename strains in a newick file whitout compromise the file structure.  
+
 ## :wrench: HOWTO
 
 - keep only variant positions (SNPs)
