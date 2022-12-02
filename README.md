@@ -102,11 +102,11 @@ Additional data:
 - single-strain gVCF (filtered as described below) [available]
   <details><summary>Filters</summary>
   
-  MQ >= 5
+     MQ >= 5
   
-  QUAL >= 20
+     QUAL >= 20
   
-  DP >= 10
+     DP >= 10
   
   </details>
 
