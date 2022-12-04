@@ -91,10 +91,6 @@ I recommend to run it at the last of your analyses.
   ```
   bcftools stats gvcf.gz > gvcf.stats
   ```
-  
-## :scissors: MATTEO'S SELECTION
-
-@matdechiara    
 
 ## :paperclip: ADDITIONAL DATA
 
