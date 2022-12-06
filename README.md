@@ -24,6 +24,8 @@ What's inside:
 
 ## :page_facing_up: gVCF/BCF FEATURES
 
+The fastqs have been aligned against S288C_reference_genome_R64-3-1_20210421.fa. 
+
 The gVCF is provided in both binary (```.bcf```) and text format (```.gvcf```).
 
 All the genomic positions are included.
