@@ -90,7 +90,7 @@ bcftools index vcf.gz
   ```
   for j in $(cat DATAonSCER.csv)
   do
-   k=$(grep -w $j DATAonSCER.csv | cut -f3)
+   k=$(grep -w $j DATAonSCER.csv | cut -f2)
    sed -i "s+\<${j}\>+${k}+g" header.txt
   done
   ```
