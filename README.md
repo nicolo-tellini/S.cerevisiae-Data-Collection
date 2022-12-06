@@ -53,12 +53,12 @@ Before subsetting, index the VCF with
 bcftools index vcf.gz
 ```
 
- - get a group of samples
+ - get per-sample/s data
  ```
  bcftools view -S thisFIELcontainsONEstrainPERline.txt vcf.gz -Oz -o myfavoritesamples.gvcf.gz
  ```
 
- - get specific region/s
+ - get per-region/s data
  ```
  bcftools view -R thisFILEcontainsCHRstartENDtabSEPARATEDcoordinates.bed vcf.gz -Oz -o myfavoritesamples.gvcf.gz
  ```
