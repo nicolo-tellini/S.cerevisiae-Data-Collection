@@ -7,10 +7,12 @@
 ## :open_file_folder: CONTENT
 
 What's inside:
+
 ```
-- scr
-- sample tab
-- linktothegVCF.txt
+- pipeline
+- strainlist.txt
+- openlinktothedata.txt
+
 ```
 
 ## :computer: SOFTWARE
