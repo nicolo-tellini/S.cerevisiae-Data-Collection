@@ -24,7 +24,7 @@ What's inside:
 
 ## :page_facing_up: gVCF/BCF FEATURES
 
-The fastqs have been aligned against S288C_reference_genome_R64-3-1_20210421.fa. 
+The fastqs have been aligned against [S288C_reference_genome_R64-3-1_20210421.fa](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/genome_releases/S288C_reference_genome_R64-3-1_20210421.tgz). 
 
 The gVCF is provided in both binary (```.bcf```) and text format (```.gvcf```).
 
