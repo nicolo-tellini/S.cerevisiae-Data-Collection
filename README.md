@@ -56,59 +56,52 @@ I recommend to run it at the last of your analyses.
 
 ## :wrench: HOWTO
 
-Before subsetting index the VCF with 
+Before subsetting, index the VCF with 
 
-  ```
-  bcftools index vcf.gz
-  ```
+```
+bcftools index vcf.gz
+```
 
-- get a group of samples
+ - get a group of samples
+ ```
+ bcftools view -S thisFIELcontainsONEstrainPERline.txt vcf.gz -Oz -o myfavoritesamples.gvcf.gz
+ ```
 
-  ```
-  # A list of strain/s
-  bcftools view -S ThisFileContainsOneStrainPerLine.txt vcf.gz -Oz -o myfavoritesamples.gvcf.gz
-  ```
-- get specific region/s
-
-  ```
-  # A list of strain/s
-  bcftools view -R thisFILEcontainsCHRstartENDtabSEPARATEDcoordinates.bed vcf.gz -Oz -o myfavoritesamples.gvcf.gz
-  ```
-- keep only variant positions (SNPs)
-
-  ```
-  zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
-  ```
-  NOTE: the output of this command will remove the header. 
-  Nevermind, we can put it back. 
-
-- extract the headear from the original gVCF
-
-  ```
-  bcftools head gvcf.gz > header.txt
-  ```
-  NOTE: If you want **keep** the ENA archive Run Accession codes as strain names jump to 2). 
-        If you want **change** the ENA archive Run Accession codes with the original strain names follow all the steps. 
+ - get specific region/s
+ ```
+ bcftools view -R thisFILEcontainsCHRstartENDtabSEPARATEDcoordinates.bed vcf.gz -Oz -o myfavoritesamples.gvcf.gz
+ ```
+ 
+ - keep only variant positions (SNPs)
+ ```
+ zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
+ ```
+ NOTE: the output of this command will remove the header. 
+ Nevermind, we can put it back.
+ 
+ - extract the headear from the original gVCF
+ ```
+ bcftools head gvcf.gz > header.txt
+ ```
+ NOTE: If you want **keep** the ENA archive Run Accession codes as strain names jump to 2. If you want **replace** the ENA archive Run Accession codes with the original strain names follow all the steps. 
         
-  1) replace ENA archive Run Accession codes with the original strain names
-  
-  ```
-  for j in $(cat strainlist.txt)
-  do
+ 1) replace ENA archive Run Accession codes with the original strain names
+ 
+ ```
+ for j in $(cat strainlist.txt)
+ do
   k=$(grep -w $j strainlist.txt | cut -f3)
   sed -i "s/\<${j}\>/${k}/g" header.txt
-  done
-  ```
-  
-  2) Add the new header to *gvcf.new.gz*
-  ```
-  bcftools reheader -h header.txt -o vcf.newheader.gz vcf.gz
-  ```
-  
-- Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
-  ```
-  bcftools stats gvcf.gz > gvcf.stats
-  ```
+ done
+ ```
+ 2) Add the new header to *gvcf.new.gz*
+ ```
+ bcftools reheader -h header.txt -o vcf.newheader.gz vcf.gz
+ ```
+ - Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
+ ```
+ bcftools stats gvcf.gz > gvcf.stats
+ ```
 
 ## :paperclip: ADDITIONAL DATA
 
