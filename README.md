@@ -77,7 +77,7 @@ bcftools index vcf.gz
  ```
   <details><summary>NOTE</summary>
     
-   NOTE: If you want **keep** the ENA archive Run Accession codes as strain names jump to 2. If you want **replace** the ENA archive Run Accession codes with the original strain names follow all the steps. 
+  If you want **keep** the ENA archive Run Accession codes as strain names jump to 2. If you want **replace** the ENA archive Run Accession codes with the original strain names follow all the steps. 
   
 </details>
 
