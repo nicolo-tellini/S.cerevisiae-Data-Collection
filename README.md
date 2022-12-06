@@ -147,6 +147,6 @@ Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
 Please cite the paper below when using the data for your publications, along with the papers to the collections you use and the software listed above.
 
-> Ancient and modern origin of shared polymorphisms among two yeast species </br>
-> Nicolò Tellini, Matteo De Chiara, Simone Mozzachiodi, Lorenzo Tattini, Chiara Vischioni, Elena S Naumova, Anders Bergström and Gianni Liti </br>
+>  </br>
+> Nicolò Tellini,</br>
 >
