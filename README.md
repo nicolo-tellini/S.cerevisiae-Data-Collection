@@ -22,7 +22,7 @@ What's inside:
 
 * [bcftools](https://github.com/samtools/bcftools/releases/tag/1.15.1) v. 1.15.1
 
-## gVCF FEATURES
+## :page_facing_up: gVCF/BCF FEATURES
 
 The gVCF is provided in both binary (```.bcf```) and text format (```.gvcf```).
 
@@ -82,7 +82,7 @@ bcftools index vcf.gz
   
 </details>
 
-        
+ 
  1) replace ENA archive Run Accession codes with the original strain names
  
  ```
