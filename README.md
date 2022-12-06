@@ -43,8 +43,6 @@ The use of the Run Accession facilitates the filtering phase.
 
 This prevents the misselection of strains with overlapping, similar or multisymbolic names.
 
-I recommend to run it at the last of your analyses.
-
 ## :wrench: HOWTO
 
 Before subsetting, index the VCF with 
@@ -53,17 +51,17 @@ Before subsetting, index the VCF with
 bcftools index vcf.gz
 ```
 
- - get per-sample/s data
+ - extract per-sample/s data
  ```
  bcftools view -S thisFIELcontainsONEstrainPERline.txt vcf.gz -Oz -o myfavoritesamples.gvcf.gz
  ```
 
- - get per-region/s data
+ - extract per-region/s data
  ```
  bcftools view -R thisFILEcontainsCHRstartENDtabSEPARATEDcoordinates.bed vcf.gz -Oz -o myfavoritesamples.gvcf.gz
  ```
  
- - keep only variant positions (SNPs)
+ - extract only variant positions (SNPs)
  ```
  zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
  ```
@@ -73,7 +71,7 @@ bcftools index vcf.gz
   
  </details>
  
- - extract the headear from the original gVCF
+ - extract the headear from the original gVCF (or the subsetted gVCF/VCF if you performed any subsetting as above)
  ```
  bcftools head gvcf.gz > header.txt
  ```
