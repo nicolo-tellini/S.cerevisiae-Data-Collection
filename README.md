@@ -12,7 +12,6 @@ What's inside:
 - pipeline
 - strainlist.txt
 - openlinktothedata.txt
-
 ```
 
 ## :computer: SOFTWARE
