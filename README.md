@@ -32,10 +32,8 @@ The HOWTO below allows to rename the strains in the header.
 
 <details><summary>Example</summary>
     
-      The strain *UWO 03-433.3* from Malaysian clade in the gVCF is named ERR1352879.
+  The strain **UWO 03-433.3** in the gVCF is named ERR1352879. Renaming ERR1352879 results in **UWO 03-433.3** 
   
-      Renaming ERR1352879 results in *UWO 03-433.3*
-      
 </details>
      
 The use of the Run Accession facilitates the filtering phase.
@@ -66,14 +64,22 @@ bcftools index vcf.gz
  ```
  zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
  ```
- NOTE: the output of this command will remove the header. 
- Nevermind, we can put it back.
+ <details><summary>NOTE</summary>
+    
+  The output of this command will remove the header. Nevermind, we can put it back. 
+  
+ </details>
  
  - extract the headear from the original gVCF
  ```
  bcftools head gvcf.gz > header.txt
  ```
- NOTE: If you want **keep** the ENA archive Run Accession codes as strain names jump to 2. If you want **replace** the ENA archive Run Accession codes with the original strain names follow all the steps. 
+  <details><summary>NOTE</summary>
+    
+   NOTE: If you want **keep** the ENA archive Run Accession codes as strain names jump to 2. If you want **replace** the ENA archive Run Accession codes with the original strain names follow all the steps. 
+  
+</details>
+
         
  1) replace ENA archive Run Accession codes with the original strain names
  
@@ -81,7 +87,7 @@ bcftools index vcf.gz
  for j in $(cat strainlist.txt)
  do
   k=$(grep -w $j strainlist.txt | cut -f3)
-  sed -i "s/\<${j}\>/${k}/g" header.txt
+  sed -i "s+\<${j}\>+${k}+g" header.txt
  done
  ```
  2) Add the new header to *gvcf.new.gz*
