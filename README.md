@@ -85,14 +85,14 @@ bcftools index vcf.gz
  
  1) replace ENA archive Run Accession codes with the original strain names
  
- ```
- for j in $(cat strainlist.txt)
- do
-  k=$(grep -w $j strainlist.txt | cut -f3)
-  sed -i "s+\<${j}\>+${k}+g" header.txt
- done
- ```
- A bit more advanced renaming [here]()
+  ```
+  for j in $(cat strainlist.txt)
+  do
+   k=$(grep -w $j strainlist.txt | cut -f3)
+   sed -i "s+\<${j}\>+${k}+g" header.txt
+  done
+  ```
+  A bit more advanced renaming [here]()
  
  2) Add the new header to *gvcf.new.gz*
  ```
