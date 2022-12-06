@@ -146,6 +146,10 @@ Long-term contact:</br>
 To: matnamo@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
+## :seedling: VERSION
+
+v.1 1.6K soon available
+
 ## :scroll: CITATION
 
 Please cite the paper below when using the data for your publications, along with the papers to the collections you use and the software listed above.
