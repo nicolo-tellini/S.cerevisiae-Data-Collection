@@ -94,8 +94,7 @@ bcftools index vcf.gz
    sed -i "s+\<${j}\>+${k}+g" header.txt
   done
   ```
-  A bit more advanced renaming [here]()
- 
+  
  2) Add the new header to *gvcf.new.gz*
  ```
  bcftools reheader -h header.txt -o vcf.newheader.gz vcf.gz
