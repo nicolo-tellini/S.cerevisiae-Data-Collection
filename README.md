@@ -20,37 +20,27 @@ What's inside:
 
 ## gVCF FEATURES
 
+The gVCF is provided in both binary (```.bcf```) and text format (```.gvcf```).
+
 All the genomic positions are included.
 
-Chromosome names are lower case and (sadly) mantain roman numerals eg. chrIII (chrMT is the only exception). 
-
-<details><summary>Warning</summary>
-    
-    plink without --aec will convert chrX in chr23 
-     
-</details>
+Chromosome names are lower case and (sadly) mantain roman numerals eg. chrIII (chrMT is the only exception).
 
 For the joy of bioinfo, strain names are replaced by the ENA archive Run Accession.
 
-The HOWTO below ("rename strains in the header") allows to rename the strains.
+The HOWTO below allows to rename the strains in the header.
 
 <details><summary>Example</summary>
     
       The strain *UWO 03-433.3* from Malaysian clade in the gVCF is named ERR1352879.
   
-      Renaming ERR1352879 results in 
-  
-      ERR1352879-UWO_03_433_3-Malaysian
-  
-      NOTE: also white spaces in the name are replaced with underscore
-     
+      Renaming ERR1352879 results in *UWO 03-433.3*
+      
 </details>
      
 The use of the Run Accession facilitates the filtering phase.
 
-This prevents the misselection of strains with overlapping, similar, multisymbolic names.
-
-Moreover, renaming the strains results in an easy-to-parse meaningful dash-separated tag.
+This prevents the misselection of strains with overlapping, similar or multisymbolic names.
 
 I recommend to run it at the last of your analyses.
 
