@@ -104,11 +104,6 @@ bcftools index gvcf.gz
     sed -i "s+\<${j}\>+${k}+g" myresults.txt
    done
    ```
-  
- - Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
- ```
- bcftools stats gvcf.gz > gvcf.stats
- ```
 
 ## :paperclip: ADDITIONAL DATA
 
