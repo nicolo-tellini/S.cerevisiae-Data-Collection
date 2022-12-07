@@ -52,28 +52,23 @@ This prevents the misselection of strains with overlapping, similar or multisymb
 Before subsetting, index the VCF with 
 
 ```
-bcftools index vcf.gz
+bcftools index gvcf.gz
 ```
 
  - extract per-sample/s data
  ```
- bcftools view -S thisFIELcontainsONEstrainPERline.txt vcf.gz -Oz -o myfavoritesamples.gvcf.gz
+ bcftools view -S thisFIELcontainsONEstrainPERline.txt gvcf.gz -Oz -o myfavoritesamples.gvcf.gz
  ```
 
  - extract per-region/s data
  ```
- bcftools view -R thisFILEcontainsCHRstartENDtabSEPARATEDcoordinates.bed vcf.gz -Oz -o myfavoritesamples.gvcf.gz
+ bcftools view -R thisFILEcontainsCHRstartENDtabSEPARATEDcoordinates.bed gvcf.gz -Oz -o myfavoritesamples.gvcf.gz
  ```
  
  - extract only variant positions (SNPs)
  ```
- zcat gvcf.gz | grep -E "0/1|1/1" | bgzip > vcf.gz
+ bcftools view -e 'ALT="."' gvcf.gz -Oz -o vcf.gz
  ```
- <details><summary>NOTE</summary>
-    
-  The output of this command will remove the header. Nevermind, we can put it back. 
-  
- </details>
  
  - extract the headear from the original gVCF (or the subsetted gVCF/VCF if you performed any subsetting as above)
  ```
