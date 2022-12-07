@@ -27,7 +27,7 @@ What's inside:
 
 The fastqs have been aligned against [S288C_reference_genome_R64-3-1_20210421.fa](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/genome_releases/S288C_reference_genome_R64-3-1_20210421.tgz). 
 
-The gVCF is provided in both binary (```.bcf```) and text format (```.gvcf```).
+The gVCFs are provided in both binary (```.bcf```) and text format (```.gvcf```).
 
 All the genomic positions are included.
 
@@ -46,6 +46,16 @@ The HOWTO below allows to rename the strains in the header.
 The use of the Run Accession facilitates the filtering phase.
 
 This prevents the misselection of strains with overlapping, similar or multisymbolic names.
+
+By default, the gVCF were filterin as follow:
+
+- MQ >= 5
+
+- QUAL >= 20
+
+- DP >= 10
+
+Important: some of the S.cerevisiae isolates are low in coverage (lowcoverageisolates.txt). Genomics data are provided in a separeted gVCF (gVCF.LC.gz) were the DP filtering was removed.
 
 ## :wrench: HOWTO
 
