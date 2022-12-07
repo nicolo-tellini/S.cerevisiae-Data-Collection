@@ -84,7 +84,7 @@ bcftools index gvcf.gz
  1) replace ENA archive Run Accession codes with the original strain names
  
   ```
-  for j in $(cat DATAonSCER.csv)
+  for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
   do
    k=$(grep -w $j DATAonSCER.csv | cut -f2)
    sed -i "s+\<${j}\>+${k}+g" header.txt
