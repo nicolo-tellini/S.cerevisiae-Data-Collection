@@ -93,7 +93,7 @@ bcftools index gvcf.gz
   
 </details>
  
- - renaming any other  ```.txt ``` file from downstream analyses.
+ - renaming any other ```.txt``` file from downstream analyses.
  
   ```
   for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
@@ -102,12 +102,6 @@ bcftools index gvcf.gz
    sed -i "s+\<${j}\>+${k}+g" myresults.txt
   done
   ```
-  
-   <details><summary>About iTOL</summary>
-    
-   iTOL is frequently used to visulize phylogeny. iTOL truncates names at round parenthesis **(** and commma symbols **,** so you want avoid to use them when you rename a newick file.  
-    
-   </details>
   
  - Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
  ```
