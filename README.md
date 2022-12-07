@@ -13,7 +13,6 @@ What's inside:
 - pipeline
 - DATAonSCER.csv # info on S.cer. strains
 - additionalstrains.txt # sequencing not available in ENA but downloadable elsewhere
-- lowcoverageisolates.txt # info on low coverage S.cer. strains
 ```
 
 ## :computer: SOFTWARE
@@ -30,11 +29,11 @@ The fastqs have been aligned against [S288C_reference_genome_R64-3-1_20210421.fa
 
 The files are both provided in binary (```.bcf```) and text format (```.gvcf```).
 
-All the genomic positions are included.
+All the genomic positions are included (as long as at least 1 strain has been genotyped at that position).
 
 Chromosome names are lower case and (sadly) mantain roman numerals eg. chrIII (chrMT is the only exception).
 
-For the joy of bioinfo, strain names are replaced by the ENA archive Run Accession.
+For the joy of bioinfo, strain names are replaced by the ENA archive *Run Accession*.
 
 The HOWTO below allows to rename the strains in the header.
 
@@ -56,7 +55,11 @@ By default, the gVCF/BCF was filter as follow:
 
 - DP >= 10
 
-Important: some of the *S.cerevisiae* isolates are low in coverage (*lowcoverageisolates.txt*). The genomics data of these last are provided in a separate gVCF/BCF (gVCF/BCF.LC.gz) where the DP filtering was removed.
+Important: some of the *S.cerevisiae* isolates were made available via custom website; these strains are listed in *additionalstrains.txt* and the data stored in *additionalstrains.gvcf.gz* and *additionalstrains.bcf.gz*
+
+Along with the gVCFs/BCFs files we provide a table (perstraingenotypedpos.txt) in which we reported the number (and the percentage) of positions genotyped for each strain, compared to S288C reference genome. 
+
+This last table should be used to run a first 
 
 ## :wrench: HOWTO
 
@@ -125,8 +128,6 @@ Additional data:
      QUAL >= 20
   
      DP >= 10
-     
-     Low-coverage *S. cerevisiae* strains DP filtering removed.
   
   </details>
 
@@ -140,8 +141,6 @@ Additional data:
 Short-term contact:</br>
 To: nicolo.tellini.2@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
-
-note: If I (Nicolò Tellini) do not reply in 5 working days I am probably hard coding/debugging, freaking out because of the dissertation, sampling *Saccharomyces* in a remote place or tryharding in CoD.</br>
 
 Feel free to contact Dr. Matteo De Chiara.
 
