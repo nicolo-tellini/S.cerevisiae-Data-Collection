@@ -1,0 +1,11 @@
+Scer_(<8Mb/12M)	reason
+ERR1352843	Probably low coverage
+ERR1352879	Probably low coverage
+ERR2299970	Probably low coverage
+ERR3010126	Probably low coverage
+ERR756202	Probably low coverage
+SRR5688140	Probably low coverage
+SRR5688188	Probably low coverage
+SRR5688192	Probably low coverage
+
+# These Scer strains have been excluded because less than 8Mb (out of 12Mb) were genotyped (this can be due to the low coverage)
