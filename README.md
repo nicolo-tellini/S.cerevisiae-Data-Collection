@@ -55,7 +55,7 @@ By default, the gVCF were filterin as follow:
 
 - DP >= 10
 
-Important: some of the S.cerevisiae isolates are low in coverage (lowcoverageisolates.txt). Genomics data are provided in a separeted gVCF (gVCF.LC.gz) where the DP filtering was removed.
+Important: some of the *S.cerevisiae* isolates are low in coverage (lowcoverageisolates.txt). Genomics data are provided in a separeted gVCF (gVCF.LC.gz) where the DP filtering was removed.
 
 ## :wrench: HOWTO
 
