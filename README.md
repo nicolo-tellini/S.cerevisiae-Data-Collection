@@ -89,7 +89,7 @@ bcftools index gvcf.gz
  
   <details><summary>Important</summary>
     
-  The strain names in *fromENAtoStrainName.txt* **must** follow the order of the ENA codes in the header of the gVCF. The file we provide is already ordered but, if you subsetted by samples you need to subset *fromENAtoStrainName.txt* and be sure the order is mantained as intended. 
+  The strain names in *fromENAtoStrainName.txt* **must** follow the order of the ENA codes in the header. The file we provide is already ordered but, if you subsetted by samples you need to subset *fromENAtoStrainName.txt* and be sure the order is mantained as intended. 
   
 </details>
  
