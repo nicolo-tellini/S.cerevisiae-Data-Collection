@@ -89,8 +89,7 @@ bcftools index gvcf.gz
  
   <details><summary>Important</summary>
     
-  The strain names in ```fromENAtoStrainName.txt``` *must* follow the same order of the ENA codes in the header of the vcf.
-  The file we provide is already ordered as the codes in the gVCF header, but if you subsetted by samples you need to subset ```fromENAtoStrainName.txt``` and be sure the order is mantained as intended. 
+  The strain names in ```fromENAtoStrainName.txt``` **must** follow the order of the ENA codes in the header of the gVCF. The file we provide is already ordered but, if you subsetted by samples you need to subset ```fromENAtoStrainName.txt``` and be sure the order is mantained as intended. 
   
 </details>
  
@@ -105,11 +104,11 @@ bcftools index gvcf.gz
   
   ```
   
-    <details><summary>About iTOL</summary>
+   <details><summary>About iTOL</summary>
     
-  iTOL is frequently used to visulize phylogeny. iTOL truncates names at round parenthesis **(** and commma symbols **,** so you want avoid to use them when you rename a newick file.  
-  
-</details>
+   iTOL is frequently used to visulize phylogeny. iTOL truncates names at round parenthesis **(** and commma symbols **,** so you want avoid to use them when you rename a newick file.  
+    
+   </details>
   
  - Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
  ```
