@@ -13,6 +13,7 @@ What's inside:
 - pipeline
 - strainlist.txt
 - openlinktothedata.txt
+
 ```
 
 ## :computer: SOFTWARE
@@ -80,31 +81,35 @@ bcftools index gvcf.gz
  bcftools view -e 'ALT="."' gvcf.gz -Oz -o vcf.gz
  ```
  
- - extract the headear from the original gVCF (or the subsetted gVCF/VCF if you performed any subsetting as above)
+ - replace ENA archive Run Accession codes with the original strain names in the gVCF
+ 
  ```
- bcftools head gvcf.gz > header.txt
+ bcftools reheader --samples fromENAtoStrainName.txt -Oz -o vcf.renamed.gz vcf.gz
  ```
-  <details><summary>NOTE</summary>
+ 
+  <details><summary>Important</summary>
     
-  If you want **keep** the ENA archive Run Accession codes as strain names jump to 2. If you want **replace** the ENA archive Run Accession codes with the original strain names follow all the steps. 
+  The names of the strains in fromENAtoStrainName.txt *must* follow the same order of the ENA codes in the header of the vcf.
   
 </details>
-
  
- 1) replace ENA archive Run Accession codes with the original strain names
+ - renaming any other  ```.txt ``` file from downstream analyses.
  
   ```
   for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
   do
    k=$(grep -w $j DATAonSCER.csv | cut -f2)
-   sed -i "s+\<${j}\>+${k}+g" header.txt
+   sed -i "s+\<${j}\>+${k}+g" myresults.txt
   done
+  
   ```
   
- 2) Add the new header to *gvcf.new.gz*
- ```
- bcftools reheader -h header.txt -o vcf.newheader.gz vcf.gz
- ```
+    <details><summary>About iTOL</summary>
+    
+  iTOL is frequently used to visulize phylogeny. iTOL truncates names at round parenthesis **(** and commma symbols **,** so you want avoid to use them when you rename a newick file.  
+  
+</details>
+  
  - Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
  ```
  bcftools stats gvcf.gz > gvcf.stats
