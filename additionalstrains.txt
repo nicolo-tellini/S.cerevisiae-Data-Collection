@@ -4,5 +4,7 @@ GAP	L1528	Bergström_2014	NA
 GAS	UWOPS83-787_3	Bergström_2014	NA
 GAT	UWOPS87-2421	Bergström_2014	NA
 GAV	W303	Bergström_2014	NA
+YBF YJM980  Strope_2015 NA
 
-#### These strains can be found at http://www.moseslab.csb.utoronto.ca/sgrp/download.html
+#### The strain from Bergström_2014 can be found at http://www.moseslab.csb.utoronto.ca/sgrp/download.html
+#### The strain from YJM980 Strope_2015 is not available 
