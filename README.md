@@ -125,6 +125,9 @@ Additional data:
      QUAL >= 20
   
      DP >= 10
+     
+     Note: some of the *S.cerevisiae* isolates are low in coverage (lowcoverageisolates.txt). Genomics data are provided in a separeted gVCF were the DP filtering was removed.
+     
   
   </details>
 
