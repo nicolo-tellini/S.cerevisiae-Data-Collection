@@ -56,7 +56,7 @@ By default, the gVCF/BCF was filter as follow:
 
 - DP >= 10
 
-Important: some of the *S.cerevisiae* isolates are low in coverage (lowcoverageisolates.txt). The genomics data of these last are provided in a separate gVCF/BCF (gVCF/BCF.LC.gz) where the DP filtering was removed.
+Important: some of the *S.cerevisiae* isolates are low in coverage (*lowcoverageisolates.txt*). The genomics data of these last are provided in a separate gVCF/BCF (gVCF/BCF.LC.gz) where the DP filtering was removed.
 
 ## :wrench: HOWTO
 
@@ -89,7 +89,7 @@ bcftools index gvcf.gz
  
   <details><summary>Important</summary>
     
-  The strain names in ```fromENAtoStrainName.txt``` **must** follow the order of the ENA codes in the header of the gVCF. The file we provide is already ordered but, if you subsetted by samples you need to subset ```fromENAtoStrainName.txt``` and be sure the order is mantained as intended. 
+  The strain names in *fromENAtoStrainName.txt* **must** follow the order of the ENA codes in the header of the gVCF. The file we provide is already ordered but, if you subsetted by samples you need to subset *fromENAtoStrainName.txt* and be sure the order is mantained as intended. 
   
 </details>
  
@@ -129,8 +129,7 @@ Additional data:
   
      DP >= 10
      
-     Note: some of the *S.cerevisiae* isolates are low in coverage (lowcoverageisolates.txt). Genomics data are provided in a separeted gVCF were the DP filtering was removed.
-     
+     Low-coverage *S. cerevisiae* strains DP filtering removed.
   
   </details>
 
