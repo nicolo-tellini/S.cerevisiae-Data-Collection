@@ -94,6 +94,7 @@ bcftools index gvcf.gz
 </details>
  
  - renaming any other ```.txt``` file from downstream analyses.
+   
    Make a copy of the ```.txt``` file before running ```sed```.
  
   ```
