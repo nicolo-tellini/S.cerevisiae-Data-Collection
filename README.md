@@ -58,7 +58,7 @@ By default, the gVCF/BCF was filter as follow:
 
 Important: some of the *S.cerevisiae* isolates were made available via custom website; these strains are listed in *additionalstrains.txt* and the data stored in *additionalstrains.gvcf.gz* and *additionalstrains.bcf.gz*
 
-Along with the gVCFs/BCFs files we provide a table (*perstraingenotypedpos.txt*) in which we reported the number (and the percentage) of positions genotyped for each strain, compared to S288C reference genome length. 
+Along with the gVCFs/BCFs files we provide a table (*perstraingenotypedpos.txt*) in which we report the number (and the percentage) of positions genotyped for each strain, compared to S288C reference genome length. 
 
 This last table should be used to run a first filtering of the data.
 
