@@ -81,7 +81,7 @@ bcftools index gvcf.gz
  bcftools view -e 'ALT="."' gvcf.gz -Oz -o vcf.gz
  ```
  
- - replace ENA archive Run Accession codes with the original strain names in the gVCF
+ - replace ENA archive Run Accession codes with the original strain names
  
  ```
  bcftools reheader --samples fromENAtoStrainName.txt -Oz -o vcf.renamed.gz vcf.gz
