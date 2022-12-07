@@ -11,8 +11,9 @@ What's inside:
 
 ```
 - pipeline
-- strainlist.txt
-- openlinktothedata.txt
+- DATAonSCER.csv # info on S.cer. strains
+- additionalstrains.txt # sequencing not available in ENA but downloadable elsewhere
+- lowcoverageisolates.txt # info on low coverage S.cer. strains
 
 ```
 
