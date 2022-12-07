@@ -13,6 +13,7 @@ What's inside:
 - pipeline
 - DATAonSCER.csv # info on S.cer. strains
 - additionalstrains.txt # sequencing not available in ENA but downloadable elsewhere
+- perstraingenotypedpos.txt # per-strain number/perc. of positions genotyped
 ```
 
 ## :computer: SOFTWARE
