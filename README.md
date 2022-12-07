@@ -14,7 +14,6 @@ What's inside:
 - DATAonSCER.csv # info on S.cer. strains
 - additionalstrains.txt # sequencing not available in ENA but downloadable elsewhere
 - lowcoverageisolates.txt # info on low coverage S.cer. strains
-
 ```
 
 ## :computer: SOFTWARE
