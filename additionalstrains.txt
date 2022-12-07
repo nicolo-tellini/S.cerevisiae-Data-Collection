@@ -1,6 +1,6 @@
 vcfname	strainName	paper_year	PRJcode
-GAP	L1528	Bergström_2014	NA
 GAL	SK1	Bergström_2014	NA
+GAP	L1528	Bergström_2014	NA
 GAS	UWOPS83-787_3	Bergström_2014	NA
 GAT	UWOPS87-2421	Bergström_2014	NA
 GAV	W303	Bergström_2014	NA
