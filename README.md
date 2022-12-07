@@ -101,7 +101,6 @@ bcftools index gvcf.gz
    k=$(grep -w $j DATAonSCER.csv | cut -f2)
    sed -i "s+\<${j}\>+${k}+g" myresults.txt
   done
-  
   ```
   
    <details><summary>About iTOL</summary>
