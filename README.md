@@ -97,13 +97,13 @@ bcftools index gvcf.gz
    
    Make a copy of the ```.txt``` file before running ```sed```.
  
-  ```
-  for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
-  do
-   k=$(grep -w $j DATAonSCER.csv | cut -f2)
-   sed -i "s+\<${j}\>+${k}+g" myresults.txt
-  done
-  ```
+   ```
+   for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
+   do
+    k=$(grep -w $j DATAonSCER.csv | cut -f2)
+    sed -i "s+\<${j}\>+${k}+g" myresults.txt
+   done
+   ```
   
  - Statistics on *allele frequency, depth distribution, stats by quality and per-sample counts, singleton stats, etc.* (cit. [bcftools stats](https://samtools.github.io/bcftools/bcftools.html#stats)).
  ```
