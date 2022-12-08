@@ -96,7 +96,7 @@ bcftools index gvcf.gz
   
 </details>
  
- If the order is the same you can move to next step.
+ If/when the order is the same you can move to next step.
  
  ```
  cut -f2 scerstrains.csv | grep -v strainName > fromENAtoStrainName.txt
