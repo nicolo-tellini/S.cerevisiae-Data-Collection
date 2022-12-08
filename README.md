@@ -84,7 +84,7 @@ bcftools index gvcf.gz
  
  - replace ENA archive Run Accession codes with the original strain names 
  
- Before proceed: the order of the ENA archive **Run Asccession** in *scerstrains.csv* *must* be the same of the output given by
+ Before proceed: the order of the ENA archive *Run Asccession* in *scerstrains.csv* *must* be the same of the output given by
  
   ``` 
  bcftools query -l --samples gvcf.gz
