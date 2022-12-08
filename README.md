@@ -57,6 +57,7 @@ The gVCFs/BCFs were filtered as follow:
 - DP >= 10
 
 NOTE: some of the *S.cerevisiae* isolates were made available via custom website; these strains are listed in *sceradditionalstrains.txt* and genomic data stored in *sceradditionalstrains* files;
+
 NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was not applied); these strains are listed in *scerlowcoveragestrains.txt* and genomic data stored in *scerlowcoveragestrains* files.
 
 Along with the gVCFs/BCFs files we provide the table *perstraingenotypedpos.txt* that contains the number of positions genotyped for each strain. 
