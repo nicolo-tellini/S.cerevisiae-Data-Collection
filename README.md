@@ -11,9 +11,11 @@ What's inside:
 
 ```
 - pipeline
-- DATAonSCER.csv # info on S.cer. strains
-- additionalstrains.txt # sequencing not available in ENA but downloadable elsewhere
+- scerstrains.csv # info on S.cer. strains
+- sceradditionalstrains.txt # sequencing not available in ENA but downloadable elsewhere
+- scerlowcoveragestrains.txt # scer strains without DP filtering
 - perstraingenotypedpos.txt # per-strain number/perc. of positions genotyped
+- publiclinkotothedata.txt # link to the data and dir. content
 ```
 
 ## :computer: SOFTWARE
@@ -32,9 +34,9 @@ The files are both provided in binary (```.bcf```) and text format (```.gvcf```)
 
 All the genomic positions are included (as long as at least 1 strain has been genotyped at that position).
 
-Chromosome names are lower case and (sadly) mantain roman numerals eg. chrIII (chrMT is the only exception).
+Chromosome names are lower case and mantain roman numerals eg. chrIII (chrMT is the only exception).
 
-For the joy of bioinfo, strain names are replaced by the ENA archive *Run Accession*.
+For the joy of bioinfo., strain names are replaced by the ENA archive *Run Accession*.
 
 The HOWTO below allows to rename the strains in the header.
 
@@ -44,11 +46,9 @@ The HOWTO below allows to rename the strains in the header.
   
 </details>
      
-The use of the Run Accession facilitates the filtering phase.
+The use of the Run Accession facilitates the filtering phase. This prevents the misselection of strains with overlapping, similar or multisymbolic names.
 
-This prevents the misselection of strains with overlapping, similar or multisymbolic names.
-
-By default, the gVCF/BCF was filter as follow:
+The gVCFs/BCFs were filtered as follow:
 
 - MQ >= 5
 
@@ -56,11 +56,10 @@ By default, the gVCF/BCF was filter as follow:
 
 - DP >= 10
 
-Important: some of the *S.cerevisiae* isolates were made available via custom website; these strains are listed in *additionalstrains.txt* and the data stored in *additionalstrains.gvcf.gz* and *additionalstrains.bcf.gz*
+NOTE: some of the *S.cerevisiae* isolates were made available via custom website; these strains are listed in *sceradditionalstrains.txt* and genomic data stored in *sceradditionalstrains* files;
+NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was not applied); these strains are listed in *scerlowcoveragestrains.txt* and genomic data stored in *scerlowcoveragestrains* files.
 
-Along with the gVCFs/BCFs files we provide a table (*perstraingenotypedpos.txt*) in which we report the number (and the percentage) of positions genotyped for each strain, compared to S288C reference genome length. 
-
-This last table should be used to run a first filtering of the data.
+Along with the gVCFs/BCFs files we provide the table *perstraingenotypedpos.txt* that contains the number of positions genotyped for each strain. 
 
 ## :wrench: HOWTO
 
