@@ -61,12 +61,6 @@ NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was no
 
 ## :wrench: HOWTO
 
-Before subsetting, index the VCF with 
-
-```
-bcftools index gvcf.gz
-```
-
  - extract per-sample/s data
  ```
  bcftools view -S thisFIELcontainsONEstrainPERline.txt gvcf.gz -Oz -o myfavoritesamples.gvcf.gz
