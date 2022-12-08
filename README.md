@@ -106,7 +106,7 @@ bcftools index gvcf.gz
  
  - renaming the strains in any other ```.txt``` file from downstream analyses.
    
-   Make a copy of the ```.txt``` file before running ```sed``` (backup copy).
+   Make a copy of the ```.txt``` file before running ```sed``` (backup copy.. sed is as powerful as dangerous).
  
    ```
    for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
