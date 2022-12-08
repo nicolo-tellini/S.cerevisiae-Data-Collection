@@ -51,7 +51,7 @@ do
 	cps=$(grep -w $IndS ${BaseDir}/cps/cps.txt)
 	if [ -z "$cps" ]
 	then
-		revers=$(find ${BaseDir} | grep ${IndS}_2)
+		revers=$(find ${BaseDir}/seq | grep ${IndS}_2)
 		IndR=$(ls ${BaseDir}/rep/*.fa)
 		refID=$(basename $IndR | cut -d "." -f 1)
 		((i++))
