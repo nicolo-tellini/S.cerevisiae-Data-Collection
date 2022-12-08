@@ -27,7 +27,7 @@ What's inside:
 
 ## :page_facing_up: gVCF/BCF FEATURES
 
-The fastqs have been aligned against [S288C_reference_genome_R64-3-1_20210421.fa](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/genome_releases/S288C_reference_genome_R64-3-1_20210421.tgz) (Scer.genome.fa in ```pipeline/rep```). 
+The fastqs have been aligned against [S288C_reference_genome_R64-3-1_20210421.fa](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/genome_releases/S288C_reference_genome_R64-3-1_20210421.tgz) (*Scer.genome.fa* in ```pipeline/rep```). 
 
 The files are both provided in binary (```.bcf```) and text format (```.gvcf```).
 
