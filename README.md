@@ -14,8 +14,7 @@ What's inside:
 - scerstrains.csv # info on S.cer. strains
 - sceradditionalstrains.txt # sequencing not available in ENA but downloadable elsewhere
 - scerlowcoveragestrains.txt # scer strains without DP filtering
-- perstraingenotypedpos.txt # per-strain number/perc. of positions genotyped
-- publiclinkotothedata.txt # link to the data and dir. content
+- publicdata.txt # link to the data and dir. content
 ```
 
 ## :computer: SOFTWARE
