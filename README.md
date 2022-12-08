@@ -82,21 +82,31 @@ bcftools index gvcf.gz
  bcftools view -e 'ALT="."' gvcf.gz -Oz -o vcf.gz
  ```
  
- - replace ENA archive Run Accession codes with the original strain names
+ - replace ENA archive Run Accession codes with the original strain names 
  
- ```
- bcftools reheader --samples fromENAtoStrainName.txt -Oz -o vcf.renamed.gz vcf.gz
+ Before proceed: the order of the ENA archive **Run Asccession** in *scerstrains.csv* *must* be the same of the output given by
+ 
+  ``` 
+ bcftools query -l --samples gvcf.gz
  ```
  
-  <details><summary>Important</summary>
+   <details><summary>Important</summary>
     
-  The strain names in *fromENAtoStrainName.txt* **must** follow the order of the ENA codes in the header. The file we provide is already ordered but, if you subsetted by samples you need to subset *fromENAtoStrainName.txt* and be sure the order is mantained as intended. 
+  The file we provide is already ordered but, if you subsetted by samples you need to subset *scerstrains.csv* and be sure the order is mantained as intended. 
   
 </details>
  
- - renaming any other ```.txt``` file from downstream analyses.
+ If the order is the same you can move to next step.
+ 
+ ```
+ cut -f2 scerstrains.csv | grep -v strainName > fromENAtoStrainName.txt
+ 
+ bcftools reheader --samples fromENAtoStrainName.txt -Oz -o gvcf.renamedstrains.gz gvcf.gz
+ ```
+ 
+ - renaming the strains in any other ```.txt``` file from downstream analyses.
    
-   Make a copy of the ```.txt``` file before running ```sed```.
+   Make a copy of the ```.txt``` file before running ```sed``` (backup copy).
  
    ```
    for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
