@@ -100,15 +100,15 @@ NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was no
  
  - renaming the strains in any other ```.txt``` file from downstream analyses.
    
-   Make a copy (backup copy) of the ```.txt``` file before running ```sed``` (*sed* is as powerful as dangerous).
+ Make a copy (backup copy) of the ```.txt``` file before running ```sed``` (*sed* is as powerful as dangerous).
  
-   ```
-   for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
-   do
-    k=$(grep -w $j DATAonSCER.csv | cut -f2)
-    sed -i "s+\<${j}\>+${k}+g" myresults.txt
-   done
-   ```
+ ```
+ for j in $(cut -f1 DATAonSCER.csv | grep -v vcfname)
+ do
+  k=$(grep -w $j DATAonSCER.csv | cut -f2)
+  sed -i "s+\<${j}\>+${k}+g" myresults.txt
+ done
+ ```
 
 ## :paperclip: ADDITIONAL DATA
 
