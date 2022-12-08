@@ -45,7 +45,8 @@ bwa index ${BaseDir}/rep/*fa >/dev/null 2>  ${BaseDir}/scr/Logs/Time.index2.err
 wait 
 
 #### Compact version 
-#### fastqs are stored in seq and named sample_1.fastq.gz/sample_2.fastq.gz
+#### fastqs are stored in seq and named sample_1.fastq.gz/sample_2.fastq.gz (paired-end)
+#### sample_1.fastq.gz only (single-end)
 for IndS in $( ls ${BaseDir}/seq/*_1.* | rev | cut -d"/" -f1 | cut -d"_" -f1 | rev)
 do
 	cps=$(grep -w $IndS ${BaseDir}/cps/cps.txt)
@@ -63,7 +64,7 @@ do
 			bwa mem -t $nThreads $BaseDir/rep/$refID.genome.fa ${BaseDir}/seq/${IndS}_1.* ${BaseDir}/seq/${IndS}_2.* -o $mapDir/$IndS".sam" 2> /dev/null
 		elif [ -z "$revers" ]
 		then
-			bwa mem -t $nThreads $BaseDir/rep/$refID.genome.fa ${BaseDir}/seq/${IndS}* -o $mapDir/$IndS".sam" 2> /dev/null
+			bwa mem -t $nThreads $BaseDir/rep/$refID.genome.fa ${BaseDir}/seq/${IndS}_1* -o $mapDir/$IndS".sam" 2> /dev/null
 		fi
 		
 		#### SAM processing
