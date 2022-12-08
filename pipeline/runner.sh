@@ -63,7 +63,7 @@ do
 			bwa mem -t $nThreads $BaseDir/rep/$refID.genome.fa ${BaseDir}/seq/${IndS}_1.* ${BaseDir}/seq/${IndS}_2.* -o $mapDir/$IndS".sam" 2> /dev/null
 		elif [ -z "$revers" ]
 		then
-			bwa mem -t $nThreads $BaseDir/rep/$refID.genome.fa ${BaseDir}/seq/${IndS}_1.* -o $mapDir/$IndS".sam" 2> /dev/null
+			bwa mem -t $nThreads $BaseDir/rep/$refID.genome.fa ${BaseDir}/seq/${IndS}* -o $mapDir/$IndS".sam" 2> /dev/null
 		fi
 		
 		#### SAM processing
