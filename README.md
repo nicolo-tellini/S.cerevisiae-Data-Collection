@@ -150,7 +150,7 @@ Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
 | Version | Date          |   N. isolates    |
 | ------- | ------------------ | ----------- |
-| 1.0     | soon available     | 1.66XX |
+| 1.0     | soon available     | 1,674 |
 
 
 ## :scroll: CITATION
