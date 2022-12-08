@@ -151,7 +151,10 @@ Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
 ## :seedling: VERSION
 
-v.1 1.6K soon available
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.0     | soon available     |
+
 
 ## :scroll: CITATION
 
