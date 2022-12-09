@@ -5,7 +5,7 @@
 </p>
 
 
-## :open_file_folder: CONTENT
+## CONTENT
 
 What's inside:
 
@@ -19,7 +19,7 @@ What's inside:
 - collectionIncluded.txt # collection references
 ```
 
-## :computer: SOFTWARE
+## SOFTWARE
 
 * [bwa](https://github.com/lh3/bwa/releases/tag/v0.7.17) v. 0.7.17-r1198-dirty
 
