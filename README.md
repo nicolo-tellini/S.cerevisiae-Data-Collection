@@ -144,8 +144,6 @@ Short-term contact:</br>
 To: nicolo.tellini.2@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
-Feel free to contact Dr. Matteo De Chiara.
-
 Long-term contact:</br>
 To: matnamo@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
