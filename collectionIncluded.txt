@@ -1,0 +1,14 @@
+Barbosa, Raquel, et al. "Evidence of natural hybridization in Brazilian wild lineages of Saccharomyces cerevisiae." Genome Biology and Evolution 8.2 (2016): 317-329.
+Marsit, Souhir, et al. "Evolutionary advantage conferred by an eukaryote-to-eukaryote gene transfer event in wine yeasts." Molecular biology and evolution 32.7 (2015): 1695-1707.
+Peter, Jackson, et al. "Genome evolution across 1,011 Saccharomyces cerevisiae isolates." Nature 556.7701 (2018): 339-344.
+Gonçalves, Margarida, et al. "Distinct domestication trajectories in top-fermenting beer yeasts and wine yeasts." Current Biology 26.20 (2016): 2750-2761.
+Barbosa, Raquel, et al. "Multiple rounds of artificial selection promote microbe secondary domestication—the case of cachaça yeasts." Genome biology and evolution 10.8 (2018): 1939-1955.
+Ramazzotti, Matteo, et al. "Population genomics reveals evolution and variation of Saccharomyces cerevisiae in the human and insects gut." Environmental microbiology 21.1 (2019): 50-71.
+Pontes, Ana, et al. "A quasi-domesticate relic hybrid population of Saccharomyces cerevisiae× S. paradoxus adapted to olive brine." Frontiers in genetics (2019): 449.
+Almeida, Pedro, et al. "A population genomics insight into the Mediterranean origins of wine yeast domestication." Molecular ecology 24.21 (2015): 5412-5427.
+Legras, Jean-Luc, et al. "Adaptation of S. cerevisiae to fermented food environments reveals remarkable genome plasticity and the footprints of domestication." Molecular biology and evolution 35.7 (2018): 1712-1727.
+Gallone, Brigida, et al. "Domestication and divergence of Saccharomyces cerevisiae beer yeasts." Cell 166.6 (2016): 1397-1410.
+Duan, Shou-Fu, et al. "The origin and adaptive evolution of domesticated populations of yeast from Far East Asia." Nature communications 9.1 (2018): 1-13.
+Strope, Pooja K., et al. "The 100-genomes strains, an S. cerevisiae resource that illuminates its natural phenotypic and genotypic variation and emergence as an opportunistic pathogen." Genome research 25.5 (2015): 762-774.
+Gallone, Brigida, et al. "Interspecific hybridization facilitates niche adaptation in beer yeast." Nature Ecology & Evolution 3.11 (2019): 1562-1575.
+Skelly, D. A. et al. Integrative phenomics reveals insight into the structure of phenotypic diversity in budding yeast. Genome Research 23, 1496–504 (2013).
