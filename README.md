@@ -5,7 +5,7 @@
 />
 
 [![Licence](https://img.shields.io/github/license/nicolo-tellini/S.cerevisiaeData)](https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/LICENSE)
-[![Release](https://img.shields.io/github/v/release/nicolo-tellini/S.cerevisiaeData)]()
+[![Release](https://img.shields.io/github/v/release/nicolo-tellini/S.cerevisiaeData)](https://github.com/nicolo-tellini/S.cerevisiaeData/releases/tag/v.1)
 
 ## CONTENT
 
