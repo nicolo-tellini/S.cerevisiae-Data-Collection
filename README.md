@@ -122,7 +122,7 @@ NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was no
  done
  ```
 
-## :paperclip: ADDITIONAL DATA
+## ADDITIONAL DATA
 
 Additional data are stored in a network attached storage (NAS) and shared through a personal *link* protected by *password*; both will be provided by email.
 
@@ -167,7 +167,7 @@ Subject: DATAEXT-*yourname*-DD/MM/YYYY
 | 1.0     | soon available     | 1,674 |
 
 
-## :scroll: CITATION
+## CITATION
 
 Please cite the paper below when using the data for your publications, along with the papers to the collections you use and the software listed above.
 
