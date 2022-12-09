@@ -1,5 +1,3 @@
-*S.cerevisiae* gVCF 1600 samples
-
 ![S.cerevisiaeData](https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/img/imagelogo.png)
 
 ## CONTENT
