@@ -59,6 +59,12 @@ NOTE: some of the *S.cerevisiae* isolates were made available via custom website
 
 NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was not applied); these strains are listed in *scerlowcoveragestrains.txt* and genomic data stored in *scerlowcoveragestrains* files.
 
+
+## DATA ACCESS
+
+[Public link](https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/publicdata.txt)
+
+
 ## :wrench: HOWTO
 
  - extract per-sample/s data
