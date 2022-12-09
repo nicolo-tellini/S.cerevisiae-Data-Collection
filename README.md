@@ -1,6 +1,6 @@
 *S.cerevisiae* gVCF 1600 samples
 
-<p align="center", rotate="90">
+<p align="center", rotate="360">
   <img src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/img/imagelogo.png" alt="S.cer phylo"/>
 </p>
 
