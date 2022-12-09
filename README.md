@@ -168,7 +168,7 @@ Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
 | Version | Date          |   N. isolates    |
 | ------- | ------------------ | ----------- |
-| 1.0     | soon available     | 1,674 |
+| 1.0     | 09/12/2022     | 1,674 |
 
 
 ## CITATION
