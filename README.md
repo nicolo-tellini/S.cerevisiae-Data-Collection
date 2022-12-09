@@ -150,7 +150,7 @@ Additional data:
 - Any other intermediate file [not available but can be request]
 
 
-## :e-mail: CONTACTS
+## CONTACTS
 
 Short-term contact:</br>
 To: nicolo.tellini.2@gmail.com </br>
