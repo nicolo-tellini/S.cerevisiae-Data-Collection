@@ -65,7 +65,7 @@ NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was no
 [Public link](https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/publicdata.txt)
 
 <p align="left">
-  <img src="https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/ScerPublic-QRcode.png" alt="QRCODE"/>
+  <img src="https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/ScerPublic-QRcode%20(2).png" alt="QRCODE"/>
 </p>
 
 
