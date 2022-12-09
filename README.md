@@ -1,4 +1,8 @@
-![S.cerevisiaeData](https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/img/imagelogo.png)
+<img
+  src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/img/imagelogo.png"
+  alt="Superset"
+  width="500"
+/>
 
 ## CONTENT
 
