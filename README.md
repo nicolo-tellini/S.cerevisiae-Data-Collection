@@ -1,10 +1,10 @@
-[what](https://img.shields.io/apm/l/nicolo-tellini/S.cerevisiaeData?style=for-the-badge)
-
 <img
   src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/img/imagelogo.png"
   alt="Superset"
   width="500"
 />
+
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fnicolo_tellini)](https://twitter.com/nicolo_tellini)
 
 ## CONTENT
 
