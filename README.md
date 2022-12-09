@@ -15,6 +15,8 @@ What's inside:
 - sceradditionalstrains.txt # sequencing not available in ENA but downloadable elsewhere
 - scerlowcoveragestrains.txt # scer strains without DP filtering
 - publicdata.txt # link to the data
+- QRCode.png # access to the data
+- collectionIncluded.txt # collection references
 ```
 
 ## :computer: SOFTWARE
