@@ -25,7 +25,7 @@ What's inside:
 
 * [bcftools](https://github.com/samtools/bcftools/releases/tag/1.15.1) v. 1.15.1
 
-## :page_facing_up: gVCF/BCF FEATURES
+## gVCF/BCF FEATURES
 
 The fastqs have been aligned against [S288C_reference_genome_R64-3-1_20210421.fa](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/genome_releases/S288C_reference_genome_R64-3-1_20210421.tgz) (*Scer.genome.fa* in ```pipeline/rep```). 
 
@@ -64,8 +64,12 @@ NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was no
 
 [Public link](https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/publicdata.txt)
 
+<p align="left">
+  <img src="https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/ScerPublic-QRcode.png" alt="QRCODE"/>
+</p>
 
-## :wrench: HOWTO
+
+## HOWTO
 
  - extract per-sample/s data
  ```
@@ -154,7 +158,7 @@ Long-term contact:</br>
 To: matnamo@gmail.com </br>
 Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
-## :seedling: VERSION
+## VERSION
 
 | Version | Date          |   N. isolates    |
 | ------- | ------------------ | ----------- |
