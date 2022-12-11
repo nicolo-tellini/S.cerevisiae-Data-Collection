@@ -4,9 +4,10 @@
   width="500"
 />
 
-[![Licence](https://img.shields.io/github/license/nicolo-tellini/S.cerevisiaeData)](https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/LICENSE)
-[![Release](https://img.shields.io/github/v/release/nicolo-tellini/S.cerevisiaeData)](https://github.com/nicolo-tellini/S.cerevisiaeData/releases/tag/v.1)
-[![Downloads](https://img.shields.io/github/downloads/nicolo-tellini/S.cerevisiaeData/total)]()
+[![Licence](https://img.shields.io/github/license/nicolo-tellini/S.cerevisiaeData?style=plastic)](https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/v/release/nicolo-tellini/S.cerevisiaeData?style=plastic)](https://github.com/nicolo-tellini/S.cerevisiaeData/releases/tag/v.1)
+[![release date](https://img.shields.io/github/release-date/nicolo-tellini/S.cerevisiaeData?color=violet&style=plastic)](https://github.com/nicolo-tellini/S.cerevisiaeData/releases/tag/v.1)
+[![commit](https://img.shields.io/github/last-commit/nicolo-tellini/S.cerevisiaeData?color=yellow&style=plastic)](https://github.com/nicolo-tellini/S.cerevisiaeData/graphs/commit-activity)
 
 
 ## CONTENT
