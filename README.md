@@ -48,7 +48,7 @@ The HOWTO below allows to rename the strains in the header.
 
 <details><summary>Example</summary>
     
-  The strain **UWO 03-433.3** in the gVCF is named ERR1352879. Renaming ERR1352879 results in **UWO 03-433.3** 
+  The strain **MTZ13.12** in the gVCF is named SRR7851920. Renaming SRR7851920 results in **MTZ13.12** 
   
 </details>
      
