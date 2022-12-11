@@ -7,5 +7,4 @@ ERR756202	L328	Legras_2018	PRJEB8455	Rum
 SRR5688140	BE044	Gallone_2016	PRJNA323691	US
 SRR5688188	BE068	Gallone_2016	PRJNA323691	US
 SRR5688192	BE070	Gallone_2016	PRJNA323691	Britain
-
 #### These Scer strains have been excluded because less than 8Mb (out of 12Mb) were genotyped (this can be due to the low coverage)
