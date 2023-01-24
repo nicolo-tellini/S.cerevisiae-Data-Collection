@@ -47,7 +47,7 @@ wait
 #### Compact version 
 #### fastqs are stored in seq and named sample_1.fastq.gz/sample_2.fastq.gz (paired-end)
 #### sample_1.fastq.gz only (single-end)
-for IndS in $( ls ${BaseDir}/seq/*_1.* | rev | cut -d"/" -f1 | cut -d"_" -f1 | rev)
+for IndS in $(ls ${BaseDir}/seq/*_1.* | rev | cut -d"/" -f1 | rev | cut -d"_" -f1)
 do
 	cps=$(grep -w $IndS ${BaseDir}/cps/cps.txt)
 	if [ -z "$cps" ]
