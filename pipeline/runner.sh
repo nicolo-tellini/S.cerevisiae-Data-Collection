@@ -40,7 +40,7 @@ if [[ ! -d $varDir ]]; then
   mkdir $varDir
 fi
 
-bwa index ${BaseDir}/rep/*fa >/dev/null 2> >/dev/null
+bwa index ${BaseDir}/rep/*fa >/dev/null 2> /dev/null
 
 wait 
 
