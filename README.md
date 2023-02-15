@@ -22,6 +22,7 @@ What's inside:
 - publicdata.txt # link to the data
 - QRCode.png # access to the data
 - collectionIncluded.txt # collection references
+- short illumina reads data of the hybrids ScerxSpar OS162 and OS2389
 ```
 
 ## SOFTWARE
