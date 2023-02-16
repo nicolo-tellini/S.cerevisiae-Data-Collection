@@ -43,7 +43,7 @@ All the genomic positions are included (as long as at least 1 strain has been ge
 
 Chromosome names are lower case and mantain roman numerals eg. chrIII (chrMT is the only exception).
 
-For the joy of bioinfo., strain names are replaced by the ENA archive *Run Accession*.
+Strain names are replaced by the ENA archive *Run Accession*.
 
 The HOWTO below allows to rename the strains in the header.
 
