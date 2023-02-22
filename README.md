@@ -99,7 +99,7 @@ NOTE: some of the *S.cerevisiae* isolates were low coverage (DP filtering was no
  Before proceed: the order of the ENA archive *Run Asccession* in *scerstrains.csv* *must* be the same of the output given by
  
   ``` 
- bcftools query -l --samples gvcf.gz
+ bcftools query -l gvcf.gz
  ```
  
    <details><summary>Important</summary>
