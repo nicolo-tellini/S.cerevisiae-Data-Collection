@@ -177,6 +177,4 @@ Subject: DATAEXT-*yourname*-DD/MM/YYYY
 
 Please cite the paper below when using the data for your publications, along with the papers to the collections you use and the software listed above.
 
->  </br>
-> Nicolò Tellini,</br>
->
+> Tellini, N., De Chiara, M., Mozzachiodi, S., Tattini, L., Vischioni, C., Naumova, E., Warringer, J., Bergström, A. and Liti, G., 2023. Ancient and recent origins of shared polymorphisms in yeast. (preprint)
