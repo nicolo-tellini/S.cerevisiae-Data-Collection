@@ -61,6 +61,7 @@ do
 		#### IF T runs paired end ELSE single end
 		if [ ! -z "$revers" ]
 		then
+			#### bwa v. 0.7.17-r1198-dirty
 			bwa mem -t $nThreads $BaseDir/rep/$refID.genome.fa ${BaseDir}/seq/${IndS}_1.* ${BaseDir}/seq/${IndS}_2.* -o $mapDir/$IndS".sam" 2> /dev/null
 		elif [ -z "$revers" ]
 		then
@@ -68,6 +69,7 @@ do
 		fi
 		
 		#### SAM processing
+		#### samtools v. 1.9
 		samtools fixmate -@$nThreads -O bam,level=1 -m $mapDir/$IndS".sam" $mapDir/$IndS".fix.bam"
 		samtools sort -l 1 -@$nThreads $mapDir/$IndS".fix.bam" -T $BaseDir/tmp/$IndS".tmp.bam" -o $mapDir/$IndS".fix.srt.bam"
 		samtools markdup -@$nThreads -O bam,level=1 $mapDir/$IndS".fix.srt.bam" $mapDir/$IndS".fix.srt.mrk.bam" 
@@ -79,6 +81,7 @@ do
 		
 		#### Genotype
 		#### filt Q and DP, only snps, no indels
+		#### bcftools v. 1.15.1
 		bcftools mpileup -E -Ou -q 5 -a DP -f ${BaseDir}/rep/${refID}.genome.fa $mapDir/$IndS.$refID.bam | bcftools call -mO v | bcftools view --max-alleles 2 --exclude-types indels -e 'QUAL <= 20 || FORMAT/DP <= 10' | bcftools annotate -x ID,INFO,FILTER | bgzip > $varDir"/"$IndS"."$refID".gvcf.gz"
 		bcftools index $varDir"/"$IndS"."$refID".gvcf.gz"
 		
