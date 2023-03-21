@@ -7,6 +7,8 @@
 [![release date](https://img.shields.io/github/release-date/nicolo-tellini/S.cerevisiaeData?color=violet&style=plastic)](https://github.com/nicolo-tellini/S.cerevisiaeData/releases/tag/v.1)
 [![commit](https://img.shields.io/github/last-commit/nicolo-tellini/S.cerevisiaeData?color=yellow&style=plastic)](https://github.com/nicolo-tellini/S.cerevisiaeData/graphs/commit-activity)
 
+## NEWS:
+ Easer access to the collection and the manuscripts 
 
 ## CONTENT
 
@@ -22,6 +24,39 @@ What's inside:
 - collectionIncluded.txt # collection references
 - short illumina reads data of the hybrids ScerxSpar OS162 and OS2389
 ```
+
+## COLLECTIONS
+
+| First Name  | Year | Population | Paper |
+| :---         | :---         | :---         | :---         |
+| Dunn cooming soon | 2012  | - | [link]()  |
+| Skelly | 2013  | Beer | [link](https://www.nature.com/articles/s41559-019-0997-9)  |
+| Marsit (GENOWINE proj)  | 2015  | Wine  | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4476156/)  |
+| Marsit (EVOLYA proj) cooming soon | 2015  | Wine  | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4476156/)  |
+| Almeida | 2015  | Mediterranean/North America/Japan  | [link](https://onlinelibrary.wiley.com/doi/10.1111/mec.13341)  |
+| Strope (100-genome proj) | 2015  | Multi | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4417123/)  |
+| Barbosa  | 2016  | Brasilian  | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4779607/)  |
+| cooming soon | 201?  | Clinical | [link]()  |
+| Gonçalves | 2016  | wine/beer  | [link](https://www.cell.com/current-biology/fulltext/S0960-9822(16)30984-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982216309848%3Fshowall%3Dtrue)  |
+| cooming soon | 2016  | Wine | [link]()  |
+| Gallone | 2016  | Beer | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5018251/)  |
+| Almeida coming soon | 2017 | - | [link]()  |
+| Barbosa | 2018  | Cachaça  | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6101510/)  |
+| Peter and De Chiara (1011 proj)  | 2018  | Multi  | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6784862/)  |
+| Legras | 2018  | Wine/Fermented food environments  | [link](https://pubmed.ncbi.nlm.nih.gov/29746697/)  |
+| Duan | 2018  | Chinese | [link](https://pubmed.ncbi.nlm.nih.gov/30002370/)  |
+| Ramazzotti | 2019  | Wine/insect  | [link](https://ami-journals.onlinelibrary.wiley.com/doi/10.1111/1462-2920.14422)  |
+| Pontes | 2019  | Alpechin  | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6548830/)  |
+| Gallone | 2019  | Beer | [link](https://www.nature.com/articles/s41559-019-0997-9)  |
+| Fay coming soon | 2019  | Beer | [link](https://www.nature.com/articles/s41559-019-0997-9)  |
+| cooming soon | 202?  | NZ | [link]()  |
+| cooming soon | 202?  | African Fermented Food | [link]()  |
+| cooming soon | 202?  | Wild | [link]()  |
+| cooming soon | 202?  | ??? | [link]()  |
+
+
+
+
 
 ## SOFTWARE
 
