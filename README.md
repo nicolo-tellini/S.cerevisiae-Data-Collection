@@ -1,8 +1,6 @@
-<img
-  src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/img/imagelogo.png"
-  alt="Superset"
-  width="500"
-/>
+<p align="center">
+  <img src="https://github.com/nicolo-tellini/S.cerevisiae-gVCF/blob/main/img/imagelogo.png" alt="phylo logo" width="500"/> 
+</p>
 
 [![Licence](https://img.shields.io/github/license/nicolo-tellini/S.cerevisiaeData?style=plastic)](https://github.com/nicolo-tellini/S.cerevisiaeData/blob/main/LICENSE)
 [![Release](https://img.shields.io/github/v/release/nicolo-tellini/S.cerevisiaeData?style=plastic)](https://github.com/nicolo-tellini/S.cerevisiaeData/releases/tag/v.1)
